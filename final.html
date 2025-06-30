@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vijju's Trendy Shop</title>
+  <link rel="stylesheet" href="Final 1.1.css" />
+</head>
+<body>
+
+<header>
+  <h1>🛍️ Vijju Trendy Shop</h1>
+  <div class="cart">Cart (0)</div>
+</header>
+
+
+<div class="controls">
+  <label for="sortBy">Sort By:</label>
+  <select id="sortBy">
+    <option value="default">-- Choose --</option>
+    <option value="price-low-high">Price: Low to High</option>
+    <option value="price-high-low">Price: High to Low</option>
+    <option value="rating-high-low">Rating: High to Low</option>
+  </select>
+  <div class="category-filters">
+    <button data-category="all" class="active">All</button>
+    <button data-category="footwear">Footwear</button>
+    <button data-category="clothing">Clothing</button>
+    <button data-category="accessories">Accessories</button>
+    <button data-category="electronics">Electronics</button>
+  </div>
+</div>
+
+<div id="product-container" class="product-container"></div>
+
+<script src="Final 1.js"></script>
+</body>
+</html>
